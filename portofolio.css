@@ -1,0 +1,115 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    padding: 4em 1em 2em;
+    text-align: center;
+    background-color: #fff;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+
+main {
+    padding: 2em 1em;
+}
+
+.portfolio {
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.gallery-item {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+}
+
+.gallery-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+}
+
+.gallery-caption h3 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.gallery-caption p {
+    font-size: 1em;
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}

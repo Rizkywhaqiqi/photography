@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Nama Fotografer</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Kontak</h1>
+    </header>
+
+    <main>
+        <section class="contact">
+            <div class="contact-info">
+                <h2>Informasi Kontak</h2>
+                <p>Jika Anda memiliki pertanyaan atau ingin bekerja sama, silakan hubungi saya melalui salah satu cara berikut:</p>
+                <ul>
+                    <li><strong>Email:</strong> nama@fotografer.com</li>
+                    <li><strong>Telepon:</strong> +62 812 3456 7890</li>
+                    <li><strong>Alamat:</strong> Jl. Contoh No. 123, Jakarta, Indonesia</li>
+                </ul>
+            </div>
+            
+            <div class="contact-form">
+                <h2>Kirim Pesan</h2>
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit" class="btn-primary">Kirim</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nama Fotografer. All rights reserved.</p>
+    </footer>
+</body>
+</html>
