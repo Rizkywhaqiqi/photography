@@ -1,0 +1,140 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    position: relative;
+    margin-top: 4em; /* Offset untuk navbar */
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    padding: 0 1em;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+main {
+    padding: 2em 1em;
+}
+
+.services, .testimonial {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.services h2, .testimonial h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.service {
+    margin: 1em 0;
+}
+
+.service img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.service h3 {
+    margin: 0.5em 0;
+    font-size: 1.5em;
+}
+
+.testimonial-item {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
